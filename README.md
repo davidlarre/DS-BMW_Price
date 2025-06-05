@@ -2,22 +2,54 @@
 
 **Primer entregable del Máster en Data Science & IA - Nuclio Digital School**
 
-![BMW](https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/1200px-BMW.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/120px-BMW.svg.png" alt="BMW logo" width="100"/>
 
 ---
 
 ## 📌 Descripción
 
-Este proyecto tiene como objetivo analizar y predecir los precios de vehículos BMW utilizando técnicas de Machine Learning. A través de un enfoque práctico, se aplican métodos de análisis de datos para comprender los factores que influyen en el precio de los automóviles.
+Este proyecto tiene como objetivo analizar y preparar un dataset de vehículos BMW para una futura predicción de precios. Se centra exclusivamente en la fase de **data cleaning** y **data preprocessing**, aplicando técnicas fundamentales del análisis de datos con Python.
 
 ---
 
 ## 🧠 Objetivos del Proyecto
 
-- **Análisis exploratorio de datos (EDA):** Comprender la distribución y relaciones entre variables.
-- **Preprocesamiento de datos:** Limpieza y transformación de datos para su uso en modelos predictivos.
-- **Modelado predictivo:** Implementación de algoritmos de regresión para predecir precios.
-- **Evaluación de modelos:** Medición del rendimiento de los modelos utilizando métricas adecuadas.
+- 🧹 **Limpieza de datos:**  
+  - Identificación y eliminación de columnas irrelevantes o redundantes.  
+  - Justificación de las decisiones tomadas respecto a las columnas eliminadas.
+
+- 🕳️ **Manejo de valores nulos:**  
+  - Análisis detallado de las columnas con nulos.  
+  - Aplicación de distintas estrategias de imputación, explicando el motivo de cada una.
+
+- 🔍 **Análisis univariable:**  
+  - Exploración individual de cada variable.  
+  - Detección de valores atípicos, distribuciones interesantes y datos potencialmente erróneos.
+
+- 📊 **Análisis de correlación inicial:**  
+  - Evaluación de relaciones entre variables.  
+  - Detección de posibles variables redundantes o altamente correlacionadas.
+
+- 🎯 **Relación variable vs target (`price`):**  
+  - Estudio de cómo impacta cada variable sobre el precio.  
+  - Obtención de insights útiles de cara al modelado.
+
+- 🔁 **Transformación de variables categóricas:**  
+  - Selección de columnas categóricas.  
+  - Codificación adecuada (One-Hot, Label Encoding, etc.) según el caso.
+
+- 📏 **Escalado de variables numéricas:**  
+  - Aplicación de `MinMaxScaler`.  
+  - Reanálisis de la correlación tras el escalado.
+
+- 🧾 **Creación del dataset final (`vfin`):**  
+  - Exportación de un pantallazo con todas las columnas y tipos de datos (`df.info()`).
+
+- 📥 **Exportación de muestra:**  
+  - Generación de un archivo Excel con las primeras 50 filas del dataset limpio.
+
+- 📂 **Entrega del código:**  
+  - Subida del archivo `.ipynb` con toda la preparación documentada.  
 
 ---
 
@@ -28,47 +60,13 @@ Este proyecto tiene como objetivo analizar y predecir los precios de vehículos 
   - `pandas` para manipulación de datos
   - `numpy` para operaciones numéricas
   - `matplotlib` y `seaborn` para visualización de datos
-  - `scikit-learn` para modelado y evaluación
-
----
-
-## 📁 Estructura del Proyecto
-DS-BMW_Price/
-├── notebooks/
-│   └── Entregable1.ipynb
-├── data/
-│   └── bmw.csv
-├── README.md
-└── requirements.txt
-
----
-
-## 📊 Resultados Destacados
-
-- **Modelo seleccionado:** [Especificar el modelo, e.g., Regresión Lineal]
-- **Métricas de rendimiento:**
-  - MAE: [Valor]
-  - RMSE: [Valor]
-  - R²: [Valor]
-
----
-
-## 📚 Conclusiones
-
-El análisis realizado proporciona una comprensión clara de los factores que afectan el precio de los vehículos BMW. El modelo predictivo desarrollado ofrece una herramienta útil para estimar precios basados en características específicas del automóvil.
-
----
-
-## 🧑‍🎓 Sobre el Máster
-
-Este proyecto forma parte del Máster en Data Science & IA de Nuclio Digital School, un programa intensivo diseñado para proporcionar experiencia práctica en todas las etapas del análisis de datos, desde la adquisición hasta la implementación de modelos de inteligencia artificial.
+  - `scikit-learn` para transformación y escalado
 
 ---
 
 ## 📬 Contacto
 
-- **Autor:** David Larre
+- **Autor:** David Larre  
 - **GitHub:** [@davidlarre](https://github.com/davidlarre)
-
 
 ---
