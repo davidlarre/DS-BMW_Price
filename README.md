@@ -1,5 +1,4 @@
-# 🚗 **Primer entregable del Máster en Data Science & IA - Nuclio Digital School**
-
+# **Primer entregable del Máster en Data Science & IA - Nuclio Digital School**
 
 <p align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/120px-BMW.svg.png" alt="BMW logo" width="100"/>
