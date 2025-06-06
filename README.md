@@ -66,7 +66,7 @@ Este proyecto tiene como objetivo analizar y preparar un dataset de vehículos B
 
 ## 📬 Contacto
 
-- **Autor:** David Larre  
+- **Autor:** David Larré  
 - **GitHub:** [@davidlarre](https://github.com/davidlarre)
 
 ---
