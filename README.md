@@ -38,7 +38,7 @@ Se implementó una estrategia dual para abordar los valores nulos, basada en el 
 
 ### 4. Transformación y Escalamiento de Datos
 
-* **Codificación de Variables Categóricas:** Las variables categóricas identificadas se transformaron en representaciones numéricas utilizando técnicas como `LabelEncoder` u `OrdinalEncoder`, o `One-Hot Encoding` donde no existía un orden intrínseco. 
+* **Codificación de Variables Categóricas:** Las variables categóricas identificadas se transformaron en representaciones numéricas utilizando técnicas como `OrdinalEncoder` o `One-Hot Encoding` donde no existía un orden intrínseco. 
 * **Escalado de Variables Numéricas:** Se aplicó `MinMaxScaler` a las variables numéricas para normalizar su rango entre 0 y 1. Esto es fundamental para algoritmos de aprendizaje automático sensibles a la escala de las características.
 * **Análisis de Correlación Final:** Tras el escalado, se realizó un nuevo análisis de correlación para observar cómo las transformaciones afectaron las relaciones entre las variables, incluyendo las recién codificadas.
 
@@ -58,7 +58,7 @@ Se implementó una estrategia dual para abordar los valores nulos, basada en el 
     * `pandas`: Indispensable para la manipulación y análisis de datos.
     * `numpy`: Para operaciones numéricas eficientes.
     * `matplotlib` y `seaborn`: Utilizadas para la visualización de datos y la generación de gráficos explicativos.
-    * `scikit-learn`: Para tareas de preprocesamiento, incluyendo la codificación de variables categóricas (`LabelEncoder`, `OrdinalEncoder`) y el escalado de características (`MinMaxScaler`).
+    * `scikit-learn`: Para tareas de preprocesamiento, incluyendo la codificación de variables categóricas (`OrdinalEncoder`, `One-Hot Encoding`) y el escalado de características (`MinMaxScaler`).
 
 ---
 
