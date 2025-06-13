@@ -1,3 +1,12 @@
-venv/
+# Entorno virtual
 .venv/
+venv/
+
+# Archivos temporales
+*.pyc
+__pycache__/
+.ipynb_checkpoints/
 .DS_Store
+
+# Archivos de configuración personales
+.env
